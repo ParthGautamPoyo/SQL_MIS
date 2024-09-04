@@ -335,6 +335,3 @@ GRANT ALL PRIVILEGES ON CollegeData.* TO 'place_comm'@'localhost' IDENTIFIED BY 
 GRANT SELECT ON CollegeData.students TO 'acad_office'@'localhost' IDENTIFIED BY 'acad_office_password';
 GRANT SELECT ON CollegeData.education TO 'acad_office'@'localhost';
 GRANT SELECT ON CollegeData.schooling TO 'acad_office'@'localhost';
-
--- Apply changes
-FLUSH PRIVILEGES;
